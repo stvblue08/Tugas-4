@@ -1,0 +1,83 @@
+/* Style untuk navigasi */
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
+/* Style untuk section */
+main {
+    padding: 50px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.content {
+    width: 50%;
+}
+
+.image {
+    width: 40%;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style untuk teks */
+h2 {
+    font-size: 2rem;
+    color: rgb(29, 27, 27);
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* Style untuk link referensi */
+.reference-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+.reference-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
